@@ -1,0 +1,144 @@
+body {
+  margin: 0px;
+  font-family: "Roboto";
+  position: absolute;
+}
+/*Логотип*/
+.logo {
+  margin: 0px;
+  position: absolute;
+  left: 215px;
+  top: 24px;
+}
+.cont {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  color: #757575;
+}
+.fontweb {
+  font-family: "raleway";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  color: #2196f3;
+}
+
+.fontstudio {
+  font-family: "raleway";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+}
+.fontstudio1 {
+  font-family: "raleway";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  color: #ffffff;
+}
+
+/* Шапка сайта*/
+.Header {
+  background: #ffffff;
+  position: relative;
+  width: 1600px;
+  height: 80px;
+  left: 0px;
+  top: 0px;
+}
+
+/* Навигация сайта*/
+.nav1 {
+  display: inline-block;
+  vertical-align: top;
+  padding-right: 50px;
+}
+.nav2 {
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  left: 1078px;
+  top: 30px;
+  padding-right: 50px;
+}
+.nav {
+  position: absolute;
+  left: 453px;
+  top: 32px;
+}
+.menu {
+  color: #212121;
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 14px;
+  text-decoration: none;
+  transition: color 0.2s linear;
+}
+
+.menu:after {
+  display: block;
+  width: 100%;
+  height: 1.5px;
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1;
+}
+.menu:hover {
+  color: #2196f3;
+}
+.menu:hover:after {
+  display: block;
+}
+/*секция 1*/
+
+.section1 {
+  position: relative;
+  width: 1600px;
+  height: 600px;
+  background: #2f303a;
+  margin: 0px;
+}
+.section2 {
+  position: relative;
+  width: 1600px;
+  height: 769px;
+  background: #e5e5e5;
+}
+.section3 {
+  position: relative;
+  width: 1600px;
+  height: 648px;
+  background: #f5f4fa;
+}
+.section4 {
+  position: relative;
+  width: 1600px;
+  height: 648px;
+  background: #f5f4fa;
+}
+/*Секция 4 "Наша команда"*/
+.list-comand {
+  display: inline-block;
+  vertical-align: top;
+}
+.bloc-comand {
+  display: inline-block;
+  vertical-align: top;
+  width: 270px;
+  height: 368px;
+}
+.size-img {
+  width: 260px;
+}
+
+/*ПОДВАЛ*/
+.footer {
+  position: relative;
+  width: 1600px;
+  height: 252px;
+  background: #2f303a;
+}
